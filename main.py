@@ -12,7 +12,6 @@ t.penup()
 t.goto(-80, 15)
 t.pendown()
 t.pencolor('blue')
-t.begin_fill()
 t.circle(35)
 
 t.penup()
@@ -20,7 +19,6 @@ t.goto(0, 15)
 t.pendown()
 t.pencolor('black')
 
-t.begin_fill()
 t.circle(35)
 
 
@@ -28,7 +26,6 @@ t.penup()
 t.goto(80, 15)
 t.pendown()
 t.pencolor('red')
-t.begin_fill()
 t.circle(35)
 
 
@@ -36,14 +33,12 @@ t.penup()
 t.goto(-40, -25)
 t.pendown()
 t.pencolor('yellow')
-t.begin_fill()
 t.circle(35)
 
 t.penup()
 t.goto(40, -25)
 t.pendown()
 t.pencolor('green')
-t.begin_fill()
 t.circle(35)
 
 
