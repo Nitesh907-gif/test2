@@ -2,10 +2,10 @@ import turtle
 
 screen = turtle.Screen()
 screen.screensize(500,500)
-screen.bgcolor('yellow')
+screen.bgcolor('tan')
 
 t = turtle.Turtle()
-t.speed(1)
+t.speed(0)
 
 
 t.penup()
