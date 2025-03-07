@@ -9,50 +9,106 @@ t.speed(1)
 
 
 t.penup()
-t.goto(0,0)
+t.goto(-80, 15)
 t.pendown()
-t.pencolor('cyan')
-t.fillcolor('cyan')
+t.pencolor('blue')
 t.begin_fill()
-
-t.setheading(45)
-t.forward(70)
-
-t.setheading(135)
-t.forward(70)
-
-t.setheading(225)
-t.forward(70)
-
-t.setheading(315)
-t.forward(70)
-
-
-
-t.end_fill()
+t.circle(35)
 
 t.penup()
-t.goto(100,0)
+t.goto(0, 15)
 t.pendown()
+t.pencolor('black')
 
-t.pencolor('brown')
-t.fillcolor('brown')
 t.begin_fill()
+t.circle(35)
 
-t.setheading(45)
-t.forward(70)
 
-t.setheading(135)
-t.forward(70)
+t.penup()
+t.goto(80, 15)
+t.pendown()
+t.pencolor('red')
+t.begin_fill()
+t.circle(35)
 
-t.setheading(225)
-t.forward(70)
 
-t.setheading(315)
-t.forward(70)
-t.end_fill()
-t.hideturtle()
+t.penup()
+t.goto(-40, -25)
+t.pendown()
+t.pencolor('yellow')
+t.begin_fill()
+t.circle(35)
 
+t.penup()
+t.goto(40, -25)
+t.pendown()
+t.pencolor('green')
+t.begin_fill()
+t.circle(35)
+
+
+
+t.penup()
+t.goto(8,-100)
+t.pendown()
+t.pencolor('purple')
+t.write("2026", align="center", font=("Arial", 25, "normal"))
+
+
+t.penup()
+t.goto(8,100)
+t.pendown()
+t.pencolor('purple')
+t.write("Winter Olympics", align="center", font=("Arial", 25, "normal"))
+
+
+
+
+# t.penup()
+# t.goto(0,0)
+# t.pendown()
+# t.pencolor('cyan')
+# t.fillcolor('cyan')
+# t.begin_fill()
+#
+# t.setheading(45)
+# t.forward(70)
+#
+# t.setheading(135)
+# t.forward(70)
+#
+# t.setheading(225)
+# t.forward(70)
+#
+# t.setheading(315)
+# t.forward(70)
+#
+#
+#
+# t.end_fill()
+#
+# t.penup()
+# t.goto(100,0)
+# t.pendown()
+#
+# t.pencolor('brown')
+# t.fillcolor('brown')
+# t.begin_fill()
+#
+# t.setheading(45)
+# t.forward(70)
+#
+# t.setheading(135)
+# t.forward(70)
+#
+# t.setheading(225)
+# t.forward(70)
+#
+# t.setheading(315)
+# t.forward(70)
+# t.end_fill()
+# t.hideturtle()
+#
 
 
 
